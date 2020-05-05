@@ -1,0 +1,9 @@
+D:\chrom\Chrom\Chrom\bin\Debug\Chrom.exe.config
+D:\chrom\Chrom\Chrom\bin\Debug\Chrom.exe
+D:\chrom\Chrom\Chrom\bin\Debug\Chrom.pdb
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.csprojAssemblyReference.cache
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.Form1.resources
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.Properties.Resources.resources
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.csproj.GenerateResource.cache
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.exe
+D:\chrom\Chrom\Chrom\obj\Debug\Chrom.pdb
