@@ -1,0 +1,15 @@
+{
+  "name": "chrum",
+  "version": "1.0.0",
+  "description": "Przeglądarka Internetowa Chrum",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^8.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ProgramistaZpolski",
+  "license": "ISC"
+}

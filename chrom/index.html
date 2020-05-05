@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrom 95 for Node 10</title>
+</head>
+
+<body style="background-color: rgb(0,128,128);">
+    <div id="welcome">
+        <audio loop autoplay>
+            <source src="http://www.programistazpolski.ct8.pl/242.mp3" type="audio/mpeg">
+            Zaaktualizuj Chrom!
+          </audio>
+        <h1>Witaj w Internecie</h1>
+        <h2>Najnowsza Wersja Przeglądarki Chrom 95 for Node 10 Oferuje wspaniałe funkcje takie jak:</h2>
+        <h3>Przycisk cofnij<br>Ulepszone pole adresu<br>Obsługa zdjęć w formacie <span
+                id="blinker2">GIF</span><br>Wtyczka Web Accelerator<br>
+            <bold>Dodatki</bold> - Nowa funkcja która pozwala ci spersonalizować <i>Chrom 95 for Node 10</i>!</i>
+        </h3>
+        <h3><span id="blinker3">Tag Blink! Umożliwia tworzenie nowej generacji treści interaktywnych!</span></h3>
+        <h3>Już wkrótce obsługa <span id="blinker4">Adobe Flash!</span></h3>
+        <h2>Zapraszamy do korzystania z przeglądarki <span id="blinker">Chrom 95 for Node 10</span>!</h2>
+        <button onclick="hahayes2();">Zacznij korzystać!!!</button>
+        <button onclick="hahayes3();">Zacznij korzystać w trybie kompatybilności!!!</button>
+    </div>
+    <h2 id = "hahano" stlyle = "display: none;">Powered by Chrom 95 for Node 10<br>Jeśli chcesz otworzyć inną stronę wciśnij View -> Force Reload<br>Aby działało trzeba dodać http://www!</h2>
+    <iframe src="web.html" id = "hahano2" style = "display: none; width: 100%; height: 100%;">
+        Chrom jest ładowany...
+    </iframe>
+    <div id  = "led" style = "display: none;">
+        <textarea id="w3mission" rows="1" cols="75">
+            http://www.programistazpolski.ct8.pl/
+            </textarea>
+        <button onclick="hahayes();">Połącz!</button>
+        <script>
+            function hahayes(){
+                window.location.replace(document.getElementById("w3mission").value);
+            }
+        </script>
+    </div>
+    <script>
+        var blink_speed = 500;
+        var t = setInterval(function () {
+            var ele = document.getElementById('blinker');
+            ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+        }, blink_speed);
+        var t = setInterval(function () {
+            var ele = document.getElementById('blinker2');
+            ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+        }, blink_speed);
+        var t = setInterval(function () {
+            var ele = document.getElementById('blinker3');
+            ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+        }, blink_speed);
+        var t = setInterval(function () {
+            var ele = document.getElementById('blinker4');
+            ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+        }, blink_speed);
+        function hahayes2() {
+            console.log("Chrom granie")
+            document.getElementById("welcome").style = "display: none;"
+            document.getElementById("hahano").style = "display: block;"
+            document.getElementById("hahano2").style = "display: block; width: 100%; height: 400px;"
+        }
+        function hahayes3() {
+            console.log("Chrom granie")
+            document.getElementById("led").style = "display: block;"
+        }
+    </script>
+</body>
+
+</html>
